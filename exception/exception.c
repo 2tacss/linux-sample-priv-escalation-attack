@@ -36,7 +36,7 @@ int return_code(int type, char *msg) {
 			return E_FILE_CLOSE;
 		case E_VALUE:
 			show_colored_msg("VALUE", msg, red);
-				return E_VALUE;
+			return E_VALUE;
 			break;
 		case E_RANGE:
 			show_colored_msg("RANGE", msg, red);

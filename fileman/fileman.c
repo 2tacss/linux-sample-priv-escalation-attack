@@ -17,7 +17,7 @@ int openfile(void) {
 		return ret;
 	}
 
-printf("[Opened file]: \x1b[33m%s\x1b[39m\n", DB);
+	printf("[Opened file]: \x1b[33m%s\x1b[39m\n", DB);
 
 	return fd;
 }
