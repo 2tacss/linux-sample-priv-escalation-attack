@@ -4,7 +4,7 @@
 #include "exception/exception.h"
 #include "def.h"
 
-# PASSWD_BUF_SIZE	16
+#define PASSWD_BUF_SIZE	16
 
 int is_auth(char passwd_buf[]) {
 	char *passwd = "asd";
