@@ -10,7 +10,6 @@
 
 int openfile(void) {
 	int fd;
-	unsigned char db_buf[DB_BUFFER_SIZE] = {0};
 
 	fd = open(DB, O_RDONLY);
 	if (fd < 0) {
