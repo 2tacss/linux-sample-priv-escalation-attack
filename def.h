@@ -1,4 +1,4 @@
-enum ErrType {
+enum ExceptionType {
 	E_FAILURE,
 	E_SUCCESS,
 	E_FILE_OPEN,
