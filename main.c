@@ -4,6 +4,8 @@
 #include "exception/exception.h"
 #include "def.h"
 
+# PASSWD_BUF_SIZE	16
+
 int is_auth(char passwd_buf[]) {
 	char *passwd = "asd";
 
@@ -15,7 +17,7 @@ int is_auth(char passwd_buf[]) {
 
 int main(int argc, char *argv[]) {
 	int fd;
-	char passwd_buf[DB_BUFFER_SIZE] = {0};
+	char passwd_buf[PASSWD_BUF_SIZE] = {0};
 	int is_auth_flag = 0;
 	char *rbuf = 0;
 
