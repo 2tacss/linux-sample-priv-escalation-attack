@@ -1,0 +1,11 @@
+enum ErrType {
+	E_FAILURE,
+	E_SUCCESS,
+	E_FILE_OPEN,
+	E_FILE_READ,
+	E_FILE_CLOSE,
+	E_VALUE,
+	E_RANGE,
+	E_TYPE_LENGTH,
+}; 
+
